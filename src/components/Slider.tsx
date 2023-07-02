@@ -49,7 +49,7 @@ function Slider() {
         swipeable
       >
         {SLIDERIMG.map((item, index) => (
-          <img key={index} src={item} className='object-cover w-full h-full max-h-[200px] md:max-h-[320px] lg:max-h-[660px]' />
+          <img key={index} src={item} className='object-cover w-full h-full' />
         ))}
       </Carousel>
     </section>

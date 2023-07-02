@@ -9,7 +9,7 @@ export const MENU = [
 ];
 
 export const SLIDERIMG = [
-  "/images/banner-1.png",
+  "/images/banner-1.jpg",
   "/images/slider-1.jpg",
   "/images/slider-2.jpg",
 ];
