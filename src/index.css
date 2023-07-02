@@ -38,6 +38,19 @@
   height: 100%;
 }
 
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--blue-2);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--blue-1);
+  border-radius: 20px;
+}
+
 /* Header */
 .hamburger {
   position: relative;
