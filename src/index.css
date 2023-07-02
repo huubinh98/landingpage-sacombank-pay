@@ -56,6 +56,7 @@
   position: relative;
   height: 24px;
   width: 32px;
+  cursor: pointer;
 }
 
 .hamburger::after {
@@ -72,6 +73,21 @@
   width: 32px;
   height: 2px;
   background: #ffffff;
+}
+
+.hamburger-rotate::before {
+  transform: rotate(45deg) translate(5px, -20px);
+  transition:  all 0.4s;
+}
+
+.hamburger-rotate::after {
+  transform: rotate(-45deg) translate(5px, 20px);
+  transition:  all 0.4s;
+}
+
+.hamburger-rotate span {
+  opacity: 0;
+  transition:  all 0.4s;
 }
 
 .nav__mobile {
@@ -107,6 +123,13 @@
 }
 
 
+/* Custom slider */
+
+.react-multiple-carousel__arrow {
+  z-index: 100;
+}
+
+
 /* Responsive */
 @media screen and (min-width: 768px) {
   .benefit-item:first-child,.benefit-item:last-child {
@@ -123,3 +146,5 @@
     border-right: 1px solid #ffffff;
   }
 }
+
+

@@ -60,7 +60,7 @@ function Header() {
             </option>
           </select> */}
             </div>
-            <div className="hamburger lg:hidden" onClick={() => setActiveNav(!activeNav)}>
+            <div className={activeNav ? 'hamburger lg:hidden hamburger-rotate' : 'hamburger lg:hidden'} onClick={() => setActiveNav(!activeNav)}>
               <span className="w-8 h-0.5 bg-white block absolute top-1/2 -translate-y-1/2"></span>
             </div>
           </div>
