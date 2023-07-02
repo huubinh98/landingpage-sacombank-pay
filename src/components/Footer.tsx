@@ -1,4 +1,3 @@
-import React from 'react'
 import { FOOTERLIST, LINKSOCIALNETWORK, MENU } from '../constants'
 
 function Footer() {
