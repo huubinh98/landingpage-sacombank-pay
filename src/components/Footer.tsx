@@ -50,7 +50,7 @@ function Footer() {
                   ))}
                   {item.img && item.img.map((img, index) => (
                     <li key={index} className='mb-2'>
-                      <a href=""><img src={img} alt="" className='mx-auto lg:mx-0' /></a>
+                      <a href=""><img src={img} alt="" className='mx-auto' /></a>
                     </li>
                   ))}
                 </ul>

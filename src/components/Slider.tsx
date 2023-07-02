@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
+// import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
@@ -21,7 +21,7 @@ function Slider() {
         pagination={{
           clickable: true,
         }}
-        modules={[Autoplay, EffectFade, Navigation, Pagination]}
+        // modules={[Autoplay, EffectFade, Navigation, Pagination]}
         className="mySwiper h-full max-h-[200px] md:max-h-[320px] lg:max-h-[660px]"
       >
         {SLIDERIMG.map((item, index) => (
