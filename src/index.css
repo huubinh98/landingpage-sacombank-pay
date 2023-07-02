@@ -28,14 +28,8 @@
   background-color: #EFF8FB;
 }
 
-@media screen and (min-width: 768px) {
-  .benefit-item:first-child,.benefit-item:last-child {
-    width: 80%;
-  }
-  
-  .benefit-item:nth-child(even) {
-    width: 90%;
-  }
+.bg-primary {
+  background-color: var(--blue-2);
 }
 
 .menu-footer:first-child {
@@ -46,9 +40,6 @@
   border-right: none
 }
 
-.menu-footer {
-  border-right: 1px solid #ffffff;
-}
 .btn-footer {
   padding: 8px;
   border: 1px solid transparent;
@@ -67,10 +58,56 @@
   -webkit-filter: brightness(0) invert(1);
 }
 
+.hamburger {
+  position: relative;
+  height: 24px;
+  width: 32px;
+}
+
+.hamburger::after {
+  top: 0;
+}
+
+.hamburger::before {
+  bottom: 0;
+}
+
+.hamburger::before, .hamburger::after {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  background: #ffffff;
+}
+
+.nav__mobile {
+  top: calc(0 -80px);
+  width: 100%;
+}
+
 
 
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+
+
+/* Responsive */
+@media screen and (min-width: 768px) {
+  .benefit-item:first-child,.benefit-item:last-child {
+    width: 80%;
+  }
+  
+  .benefit-item:nth-child(even) {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu-footer {
+    border-right: 1px solid #ffffff;
+  }
 }

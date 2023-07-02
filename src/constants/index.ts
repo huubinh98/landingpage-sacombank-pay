@@ -8,6 +8,12 @@ export const MENU = [
   "Sacombank Imperial",
 ];
 
+export const SLIDERIMG = [
+  "/images/banner-1.png",
+  "/images/slider-1.jpg",
+  "/images/slider-2.jpg",
+];
+
 export const LOIICHLIST = [
   "Xác thực online giao dịch ngay",
   "Miễn phí Mở tài khoản số đẹp",

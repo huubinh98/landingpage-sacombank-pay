@@ -4,7 +4,7 @@ import { LOIICHLIST } from "../constants";
 function TienIch() {
   return (
     <section className="container mx-auto py-10">
-      <h2 className="text-heading">Lợi ích</h2>
+      <h2 className="text-heading text-center lg:text-left">Lợi ích</h2>
       <div className="w-full lg:w-[85%] mx-auto relative">
         <div className="w-full">
           <img
@@ -13,7 +13,7 @@ function TienIch() {
             className="max-w-[400px] -translate-x-1/2 md:-translate-x-7 lg:translate-x-0"
           />
         </div>
-        <div className="flex flex-col gap-6 items-end absolute -right-10 top-0 w-[85%] justify-center h-full -z-10
+        <div className="flex flex-col gap-6 items-end absolute right-2 top-0 w-[85%] justify-center h-full -z-10
             md:right-auto  md:left-[15%] md:items-start">
           {LOIICHLIST.map((item, index) => (
             <div
